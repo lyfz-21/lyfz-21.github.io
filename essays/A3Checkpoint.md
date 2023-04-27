@@ -14,6 +14,6 @@ labels:
 </style>
 
 ### 1.
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg"> 
+<img width="200px" class="rounded float-start pe-4" src="../img/A3_plan.jpeg"> 
 
 ### 2.
