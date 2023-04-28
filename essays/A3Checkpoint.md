@@ -15,10 +15,10 @@ labels:
 </style>
 
 ### 1. Show what each page will look like. The pages do not have to be “functional” but the design should be clear.
-Click HERE to view a screencast presentation covering the design of the site.
+Click [HERE](https://youtu.be/-HfROd5kg0w) to view a screencast presentation covering the design of the site.
 
 #### Plan for Site
-![Sitemap](https://github.com/lyfz-21/lyfz-21.github.io/blob/main/img/A3_Plan.png?raw=true)
+![Sitemap](https://github.com/lyfz-21/lyfz-21.github.io/blob/main/img/A3_Plan.png?raw=true img width="600px")
 <br>
 
 ### 2. Describe your design for your site’s shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart.
