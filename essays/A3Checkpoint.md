@@ -18,7 +18,7 @@ labels:
 Click [HERE](https://youtu.be/-HfROd5kg0w) to view a screencast presentation covering the design of the site.
 
 #### Plan for Site
-<img width="600px" src="../img/A3_Plan.png">
+<img width="800px" src="../img/A3_Plan.png">
 <br>
 
 ### 2. Describe your design for your site’s shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart.
