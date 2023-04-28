@@ -18,7 +18,7 @@ labels:
 Click HERE to view a screencast presentation covering the design of the site.
 
 #### Plan for Site
-<img width="200px" class="rounded float-start pe-4" src="../img/A3_Plan.png"> 
+<img width="600px" class="rounded float-start pe-4" src="../img/A3_Plan.png"> 
 
 ### 2. Describe your design for your site’s shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart.
 We plan to have a separate page for the shopping cart where users can view and edit the quantities of the products that they had selected. It will look similar to the invoice page where users can preview the item and quantity before confirming the purchase. The cart will store the user's purchase information based on the data within the user’s session. Once the user selects a quantity for the product they want, they can add it to the cart. 
