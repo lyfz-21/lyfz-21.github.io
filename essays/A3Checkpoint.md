@@ -18,7 +18,7 @@ labels:
 Click HERE to view a screencast presentation covering the design of the site.
 
 #### Plan for Site
-<img width="600px" class="rounded float-start pe-4" src="../img/A3_Plan.png"> 
+![Sitemap](https://github.com/lyfz-21/lyfz-21.github.io/blob/main/img/A3_Plan.png?raw=true)
 <br>
 
 ### 2. Describe your design for your site’s shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart.
