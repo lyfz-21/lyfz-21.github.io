@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="E5: Reflecting on Assignment 2 Technical Essay | Le Yi Feng Zheng | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/lyfz-21.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Le Yi Feng Zheng | Professional Portfolio">
+    <meta property="og:url" content="https://lyfz-21.github.io/essays/E5.html">
+    <meta property="og:title" content="E5: Reflecting on Assignment 2 Technical Essay | Le Yi Feng Zheng | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/lyfz-21.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>E5: Reflecting on Assignment 2 Technical Essay | Le Yi Feng Zheng | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Le Yi Feng Zheng</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">E5: Reflecting on Assignment 2 Technical Essay</h1>
+  <span class="date">24 Apr 2023</span>
+  <hr>
+  <style>
+  H3{color:#528AAE;}
+  title{color:#528AAE;}
+</style>
+
+<h3 id="1-provide-a-brief-introduction-to-the-assignment-along-with-a-link-to-this-page-for-further-details">1. Provide a brief introduction to the assignment along with a link to this page for further details.</h3>
+<p>Assignment 2 was built on the basis of Assignment 1 with added requirements. We were tasked to implement a log-in and a registration page on the basis of the store structure that we had on Assignment 1, adding to the index, products display, and invoice pages. When users first access the website, they can only view the products and select the quantities they want for selected products. After the values they selected were validated, they are then redirected to a log-in page to login with an existing account or register for a new account before they can see the invoice with their purchase. If the user did not enter correct credentials for the login, then they would see their errors and need to address it to enter a valid login. For registering an account, users would click on a button on the log-in page to lead them to the registration page where they would enter valid registration information. Again, if users entered invalid information, then they would see errors that would guide them to enter the correct registration data. Once everything is validated, then their data would be stored in a json file so that they could login with that information later. A critical component of Assignment 2 was to validate user’s email, password, and name against the stored data in addition to carrying over the quantities that users had inputted to the invoice and then update the inventory amount. 
+For more information about Assignment 2, click 
+<a href="https://dport96.github.io/ITM352/morea/150.Assignment2/experience-Assignment2.html">HERE</a>. For information about E5, click <a href="https://dport96.github.io/ITM352/morea/150.Assignment2/experience-Assignment2_retrospective.html">HERE</a>.</p>
+
+<h3 id="2-what-did-you-learn-from-this-assignment">2. What did you learn from this assignment?</h3>
+<p>There were quite some valuable things that I learned from this assignment. I have became familiar with node and regex. Before, I didn’t really know what a regex is and how to use it, after Assignment 2, I learned that it is very useful in setting up the validations for the login and registration page, making it easier to implement it in the code. Also, encrypting user’s password was not as hard as I thought after searching examples on how to do so. It was fairly easy to implement if we installed the crypto module and had the function written correctly. Another thing that I learned was how to carry the quantities selected from one page over to other pages without it getting lost when connecting between pages. Storing the selected quantities in an object, then putting it in the query string will transfer the quantities to the display on the invoice page. After this assignment, I am more confident in implementing the new concepts learned.</p>
+
+<h3 id="3-did-you-work-with-a-partner-assign-an-estimated-percentage-on-the-amount-each-team-member-contributed-to-the-assignment-including-yourself">3. Did you work with a partner? Assign an estimated percentage on the amount each team member contributed to the assignment (including yourself).</h3>
+<p>I did not work with a partner.</p>
+
+<h3 id="4-how-did-you-get-help-when-you-needed-it-what-did-you-need-help-with">4. How did you get help when you needed it? What did you need help with?</h3>
+<p>For this assignment, I did my research from Goole, talked to classmates, and emailed Professor Port or went to his office hours when I needed help. There were a couple of times where I couldn’t find what the problem was or where in my codes the errors occurred, so I had to ask Professor Port via email or during office hours for help to look for the errors and how I can modify my code to make it work. Another problem I encountered was not knowing how to carry the selected quantities to the invoice page, in which I asked Professor Port and he explained the process to me. Other minor problems, I was able to search on Google to find the solution or ask a classmate to look over my code to find my mistake in the code.</p>
+
+<h3 id="5-how-was-developing-this-assignment-different-than-assignment-1">5. How was developing this assignment different than assignment #1?</h3>
+<p>Assignment 1 was more of an introduction on how we can retrieve data using the GET and POST methods and Assignment 2 is understanding the concepts and how we can create and implement codes correctly Ito expand what I have from the previous assignment. Assignment 2 required more attention to details and how we can create the login and registration pages to secure and protect users’ data. Although the codes written for Assignment 2 was a lot shorter, it needed more advanced concepts and how I can implement it in my existing codes.</p>
+
+<h3 id="6-estimate-the--of-time-you-spent-a-thinking-about-how-to-do-something-b-writing-code-but-do-not-include-testing-c-testing-and-debugging">6. Estimate the % of time you spent (a) thinking about how to do something, (b) writing code (but do not include testing, (c) testing and debugging.</h3>
+<p>I would estimate that I spent 40% of my time thinking about how to do something, 25% of the time writing the code, and 35% of the time testing and debugging my codes. I took a lot of time thinking about what I need to do and how to do it because I wasn’t confident in implementing the concepts learned, so I had to plan and took time to figure out how to connect the pages together and keep the data linked. Writing the codes was not easy nor hard, but I had to find ways to shorten my codes and not have too much, making the file long and hard to maintain. Testing and debugging my codes took a little longer because I couldn’t find the minor mistakes or didn’t know if I added something that changed how the codes would work together.</p>
+
+<h3 id="7-describe-what-workedwellwith-this-project-what-didnot-workwell">7. Describe what worked well with this project? What did not work well?</h3>
+<p>What worked well this Assignment 2 was that I was able to write the validation codes for the requirements relatively quicker than I did during Assignment 1. Completing the requirements for the assignment was not as hard as I thought too. However, something that did not work so well was with the time that I spent testing and debugging my codes. It took me a lot of time finding my errors and correcting it so that it works and doesn’t affect other parts of my codes.</p>
+
+<h3 id="8-if-you-could-go-back-in-time-and-do-things-differently-what-would-you-do-differently">8. If you could go back in time and do things differently, what would you do differently?</h3>
+<p>If I could go back in time and do things differently, I would better allocate my time and know when to take a break. There were times that I would be stuck in finding and correcting the errors in my codes and it would take up so much of my time. If I had took a break and come back, I might find the mistake faster and finished other assignments for other classes rather than being stuck doing one thing that I can’t get pass. Also, I should have asked the professor for help sooner because he is able to find and fix my problems within a shorter amount of time. I should not stare at something for a very long time if I can’t find myself to do it correctly, wasting so much time that I could use to complete other things.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

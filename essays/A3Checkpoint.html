@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Checkpoint Assignment #3 | Le Yi Feng Zheng | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/lyfz-21.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Le Yi Feng Zheng | Professional Portfolio">
+    <meta property="og:url" content="https://lyfz-21.github.io/essays/A3Checkpoint.html">
+    <meta property="og:title" content="Checkpoint Assignment #3 | Le Yi Feng Zheng | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/lyfz-21.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Checkpoint Assignment #3 | Le Yi Feng Zheng | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Le Yi Feng Zheng</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Checkpoint Assignment #3</h1>
+  <span class="date">27 Apr 2023</span>
+  <hr>
+  <style>
+  H3{color:#528AAE;}
+  H4{color:#528AAE;}
+  title{color:#528AAE;}
+</style>
+
+<h3 id="1-show-what-each-page-will-look-like-the-pages-do-not-have-to-be-functional-but-the-design-should-be-clear">1. Show what each page will look like. The pages do not have to be “functional” but the design should be clear.</h3>
+<p>Click <a href="https://youtu.be/-HfROd5kg0w">HERE</a> to view a screencast presentation covering the design of the site.</p>
+
+<h4 id="plan-for-site">Plan for Site</h4>
+<p><img width="800px" src="../img/A3_Plan.png" />
+<br /></p>
+
+<h3 id="2-describe-your-design-for-your-sites-shopping-cart-that-is-will-it-be-a-separate-page-that-the-user-can-view-and-edit-or-will-it-be-integrated-into-the-product-pages-if-so-describe-in-detail-how-this-will-work-on-your-site-provide-several-examples-of-using-the-cart">2. Describe your design for your site’s shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart.</h3>
+<p>We plan to have a separate page for the shopping cart where users can view and edit the quantities of the products that they had selected. It will look similar to the invoice page where users can preview the item and quantity before confirming the purchase. The cart will store the user’s purchase information based on the data within the user’s session. Once the user selects a quantity for the product they want, they can add it to the cart.</p>
+
+<p>In the cart, users can edit the quantities of the item(s) that they selected, such as adding the quantity or removing the item completely. After they have confirmed their selection, they will press on a “Complete Purchase” button to proceed to the Invoice page. Before users can proceed to the invoice page, they must login or register an account. If they are not logged in, they will be directed to the login page.</p>
+
+<h3 id="3-explain-specifically-how-you-will-use-sessions-to-manage-your-shopping-cart-in-particular-what-shopping-cart-data-will-be-stored-in-the-session-what-data-format-will-be-used-not-what-data-type-but-the-format-like-with-the-data-format-used-for-your-registration-data-use-code-examples-showing-what-data-structures-such-as-arrays-and-their-objects-you-will-use-to-manage-the-shopping-cart-data-and-how-they-will-be-used-in-a-session">3. Explain specifically how you will use sessions to manage your shopping cart. In particular, what shopping cart data will be stored in the session, what data format will be used (NOT what data type, but the format like with the data format used for your registration data). Use code examples showing what data structures (such as arrays and their objects) you will use to manage the shopping cart data and how they will be used in a session.</h3>
+<p>We plan to utilize sessions to manage our shopping cart information and to store quantity inputted data. It will be the value of the product type key for each of the products that will be stored in the shopping cart in an array format. If a user selects products from multiple pages, it will be put into an array that looks similar to this: {Atlantis: [1. 2. 3], Everybody: [4, 5, 6]}.</p>
+
+<h3 id="4-how-will-you-avoid-access-to-your-application-when-the-user-has-not-logged-in-or-registered-what-are-the-particular-security-concerns-you-must-address">4. How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address?</h3>
+<p>We plan to avoid users from accessing our application through the use of cookies. When a user purchases an item through the shopping cart, the server will check if the user has a cookie. If the user has a cookie, then they will be directed to the invoice page, however, if they do not have a cookie then they will be directed to the login page or have the option to register if they do not already have an account. A particular security concern is that cookies can be accessed and modified.</p>
+
+<h3 id="5-upon-a-successful-login-how-do-you-provide-personalization-in-your-ui-explain-how-you-did-or-will-do-this-paste-code-if-necessary">5. Upon a successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary)</h3>
+<p>Upon a successful login, we plan to personalize our invoice page by including the email address that is associated with the username in the invoice message. We are still in the process of planning out all of the personalizations that we will be implementing upon a successful login. All in all, to get the email address, we plan to get it from the user_data.json that is stored in the cookie in the login.</p>
+
+<h3 id="6-if-you-are-working-with-partners-how-will-you-split-up-the-work-in-your-team-so-that-you-are-working-in-parallel-as-effectively-as-possible-that-is-who-is-doing-what-and-when">6. If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when?</h3>
+<p>Yes, I will be working with partners. We plan to work cohesively on one task at a time so that we work to consistently be on the same page and can understand what each of us are thinking and planning to do. This will hopefully minimize the amount of time that we must spend figuring out how each of our parts of code that we would have been working on separately work together. By working together on one task at a time, we spend more time and all of our knowledge focused on that task rather than being scattered around. We plan to spend at minimum, 2 hours a day working together. If either of us figure something out when we are not together, we plan to relay the information to each other so that we are all on the same page and can pick up where that person left off.</p>
+
+<h3 id="7-how-are-you-approaching-assignment-3-differently-than-assignment-2">7. How are you approaching Assignment 3 differently than Assignment 2?</h3>
+<p>We are approaching Assignment 3 differently than Assignment 2 in that, this time around, we have a prototype constructed for our reference, and we are working on planning our steps to completion prior to writing out code. We recognize that there are a lot more tasks to complete for this assignment and planning accordingly. We are taking more time to think of an efficient plan and create a design prior to writing out code. This will hopefully reduce our levels of stress when it comes time to write out code.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
